@@ -5,7 +5,7 @@ This is a simple test of a Twitter bot responsible for fetching new courses at E
 
 To run this project, please follow the steps bellow:
 
-- This project requires a version of NodeJS with support for async-await
+- This project requires a version of NodeJS with support for async-await (7.6+), stable is recommended.
 
 ## Getting Started
 ---------------
