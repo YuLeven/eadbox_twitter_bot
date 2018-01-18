@@ -1,0 +1,17 @@
+{
+  "name": "eadbox_bot",
+  "version": "1.0.0",
+  "description": "A bot to fetch new courses and let the world know about them",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "author": "Yuri Levenhagen",
+  "license": "MIT",
+  "dependencies": {
+    "reqwest": "^2.0.5",
+    "sqlite3": "^3.1.13",
+    "twit": "^2.2.9",
+    "xhr2": "^0.1.4"
+  }
+}
