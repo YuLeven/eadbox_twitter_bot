@@ -2,14 +2,12 @@ const LocalDB = require('../data/localDB')
 const TwitterClient = require('../services/twitterClient')
 const API_CONSTANTS = require('../constants/apiConstants')
 
-//http://harugakita.eadbox.com/cursos/curso-teste-de-japones
 class Publisher {
     
     static async publishCourses() {
         let publishableCourses = await LocalDB.getUnpublishedCourses();
 
         for (let course of publishableCourses) {
-
             // Marks the course as published
             await LocalDB.markCourseAsPublished(course.id);
 
