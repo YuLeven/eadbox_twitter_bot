@@ -1,7 +1,7 @@
 const EadBoxClient = require('../services/eadboxClient')
 const LocalDB = require('../data/localDB')
 const Publisher = require('./publisher')
-const EADBOX_POOL_INTERVAL = process.env.EADBOX_POOL_INTERVAL || 5 * 1000;
+const EADBOX_POOL_INTERVAL = process.env.EADBOX_POOL_INTERVAL || 30 * 1000;
 
 class Pooler {
 
